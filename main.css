@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 0;
+}
+.bola{
+    background-color: blueviolet;
+    width: 240px;
+    height: 240px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.navara{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #d2691e;
+}
+.bola:nth-child(1){
+    display: flex;
+}
+.bola:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+.bola:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+}
+.bola:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+.bola:nth-child(5){
+    display: flex;
+    justify-content: flex-start;
+}
+.bola:nth-child(6){
+    display: flex;
+    justify-content: flex-end;
+}
+.bola:nth-child(7){
+    display: flex;
+    justify-content: center;
+}
+.bola:nth-child(8){
+    display: flex;
+    justify-content: space-between;
+}
+.bola:nth-child(9){
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bola:nth-child(10){
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.bola:nth-child(11){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bola:nth-child(12){
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bola:hover{
+    background-color: red;
+    transition: 0.5 ease-in-out;
+}
+.navara:hover{
+    background-color: yellow;
+    transition: 0,5 ease-in-out;
+}
+
+
+
+
